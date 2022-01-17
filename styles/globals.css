@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .navbarOption {
+    @apply cursor-pointer hover:text-gray-300 transition duration-300 ease-out;
+  }
+}
