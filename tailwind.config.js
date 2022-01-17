@@ -8,6 +8,9 @@ module.exports = {
       colors: {
         lightGrayBlue: "#1c2431",
         darkGrayBlue: "#181f2b",
+        lightTeal: "	#8ee4dc",
+        desatBlue: "#272d3d",
+        darkBlue: "#151b28",
       },
       fontFamily: {
         inter: ["Inter"],

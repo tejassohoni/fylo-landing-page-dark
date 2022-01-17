@@ -1,6 +1,10 @@
 import Head from "next/head";
 import FeaturesGrid from "../components/FeaturesGrid";
+import Footer from "../components/Footer";
+import FooterCard from "../components/FooterCard";
 import Header from "../components/Header";
+import StayProductive from "../components/StayProductive";
+import Testimonials from "../components/Testimonials";
 
 export default function Home() {
   return (
@@ -17,7 +21,12 @@ export default function Home() {
       <Header />
       <main>
         <FeaturesGrid />
+        <StayProductive />
+        <Testimonials />
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }
